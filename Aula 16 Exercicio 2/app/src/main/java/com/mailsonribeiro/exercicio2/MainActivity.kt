@@ -9,7 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnExibir.setOnClickListener{
-            txtNomeMudar.text = etxtNome.text
+            if(etxtNome.text.toString() != "") {
+                txtNomeMudar.text = etxtNome.text
+            }
         }
     }
 }
