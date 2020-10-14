@@ -14,17 +14,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Horas Trabalhadas"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:layout_marginTop="30sp"
+
         />
 
     <EditText
         android:id="@+id/edtHorasTrabalhadas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="Valor Hora"
         />
 
@@ -32,6 +38,7 @@
         android:id="@+id/edtValorHora"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         />
     <Button
         android:id="@+id/btnCalcular"
@@ -39,6 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
+        android:backgroundTint="#303e9f"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         android:layout_gravity="center"/>
     <TextView
@@ -47,6 +56,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="R$ XXXX,XX"
         android:textSize="30dp"/>
 </LinearLayout>

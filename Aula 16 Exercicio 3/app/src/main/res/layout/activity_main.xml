@@ -13,13 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:text="Temperatura em °C"
+        android:textStyle="bold"
         android:textSize="30dp"
-        android:textColor="#000000" />
+        android:textColor="@color/black" />
     <EditText
         android:id="@+id/edtTemperaturaC"
         android:layout_marginTop="10sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:hint="Digite a temperatura"/>
     <Button
         android:id="@+id/btnConverter"
@@ -29,6 +31,8 @@
         android:text="Converter"
         android:layout_marginEnd="10sp"
         android:layout_marginStart="10sp"
+        android:backgroundTint="#303e9f"
+        android:textColor="@color/white"
         android:layout_gravity="center"/>
     <TextView
         android:id="@+id/txtTemperaturaF"
@@ -37,6 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="x °F"/>
 
 </LinearLayout>
